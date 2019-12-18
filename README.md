@@ -16,7 +16,8 @@ babel是一个编辑器：编译过程分为三个阶段：解析-->转换-->输
   "plugins": ["transform-decorators-legacy", "transform-class-properties"]
 }
 
-//将按如下顺序执行：stage-2、react 然后是 es2015。
+//将按如下顺序执行：stage-2、react 然后是 
+es2015。@babel/preset-env如果不进行配置，将支持最新的js特性
 {
   "presets": ["es2015", "react", "stage-2"]
 }
