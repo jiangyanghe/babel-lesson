@@ -14,14 +14,14 @@ module.exports = function (api) {
   const ignore = [ // 忽略文件
     'src/a.js'
   ]
-  const copyFiles = [
-    'src/b.js'
-  ]
+  // const copyFiles = [
+  //   'src/b.js'
+  // ]
 
   return {
     presets,
     plugins,
     ignore,
-    copyFiles,
+    // copyFiles,
   };
 }

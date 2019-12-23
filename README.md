@@ -21,3 +21,5 @@ es2015。@babel/preset-env如果不进行配置，将支持最新的js特性
 {
   "presets": ["es2015", "react", "stage-2"]
 }
+
+useBuiltIns // 按需require 的module
