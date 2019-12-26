@@ -29,5 +29,9 @@ module.exports = function (api) {
     presets,
     plugins,
     ignore,
+    comments: false, // 删除注释
+    minified: true, // 压缩
+    include: [], // 总是启用哪些 plugins
+    exclude: []  // 强制不启用哪些 plugins，用来防止某些插件被启用
   };
 }
