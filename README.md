@@ -36,3 +36,16 @@ Babel 把 Javascript 语法 分为 syntax 和 api
 啥子是 syntax ,像 箭头函数，let,const,class, 依赖注入 Decorators,等等这些，我们在 Javascript 在运行是无法重写的，想象下，在不支持的浏览器里不管怎么样，你都用不了 let 这个关键字
 
 @babel/runtime, @babel/plugin-transform-runtime 首先 执行下,这2个一个都不能少,都是必须的
+
+@babel/register 另一个使用 Babel 的方法是通过 require 钩子（hook）。require 钩子 将自身绑定到 node 的 require 模块上，并在运行时进行即时编译。
+
+@babel / plugin-transform-runtime 一个插件，可重新使用Babel注入的帮助程序代码以节省代码大小。
+
+
+
+
+## 好文
+* corejs3的更新 http://jsdr.info/webpack/babel7%E8%BD%AC%E7%A0%81-corejs3%E7%9A%84%E6%9B%B4%E6%96%B0/
+
+## 问题
+corejs2 和 corejs3区别
